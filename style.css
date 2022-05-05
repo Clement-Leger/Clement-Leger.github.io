@@ -4,6 +4,26 @@ html{
     text-align: center;
 }
 
+/*Animation photo*/
+
+.bg{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 100px auto 0;
+    box-shadow: 0 0 0 0 rgb(138, 24, 24);
+    animation: pulse 1.3s infinite;
+}
+
+@keyframes pulse {
+    to{
+        box-shadow: 0 0 0 18px rgba(211, 41, 41, 0.096);
+    }    
+}
+
+/*Fin animation photo*/
+
 a:hover{
     color :rgb(37, 155, 155)
 }
@@ -18,10 +38,12 @@ a:visited {
 
 h1{
     background-color: white;
+    border: 1px solid black;
     border-radius: 10px 100px / 120px;
     position: relative;
-    left: 42%;
+    left: 41.3%;
     width: 330px;
+    margin-top: 50px;
 }
 
 h2{
@@ -37,7 +59,7 @@ h2{
 
 body {
 	background: #EDEDED;
-	color: #AF3D4E;
+	color: #af3d4e;
 }
 
 .icons-social a {
