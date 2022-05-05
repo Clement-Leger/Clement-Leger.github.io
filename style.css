@@ -24,6 +24,59 @@ html{
 
 /*Fin animation photo*/
 
+/*Flex*/
+
+.flex{
+    display: inline-block;
+    align-items: center;
+    flex-flow: row;
+}
+
+/*Menu déroulant*/
+
+.déroulant p {
+    height: 0px;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.déroulant:hover p {
+    height: auto;
+    text-align: center;
+    animation: apparition 0.8s ease-out;
+}
+
+.déroulant ul {
+    height: 0px;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.déroulant:hover ul {
+    height: auto;
+    text-align: center;
+    animation: apparition 0.8s ease-out;
+}
+
+@keyframes apparition{
+    from{
+        opacity:0;
+        transform: translateY(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/*Fin menu déroulant*/
+
 a:hover{
     color :rgb(37, 155, 155)
 }
