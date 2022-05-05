@@ -27,10 +27,8 @@ html{
 /*Flex*/
 
 .flex{
-    display: inline-block;
-    align-items: center;
-    flex-flow: row;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
 }
 
 /*Menu déroulant*/
@@ -42,6 +40,10 @@ html{
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+}
+
+#trolarge{
+    width: 1250px;
 }
 
 .déroulant:hover p {
