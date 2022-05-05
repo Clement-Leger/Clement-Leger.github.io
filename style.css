@@ -30,6 +30,7 @@ html{
     display: inline-block;
     align-items: center;
     flex-flow: row;
+    justify-content: space-between;
 }
 
 /*Menu déroulant*/
