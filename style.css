@@ -29,6 +29,8 @@ html{
 .flex{
     display: flex;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Menu déroulant*/
@@ -43,7 +45,7 @@ html{
 }
 
 #trolarge{
-    width: 1250px;
+    width: 100%;
 }
 
 .déroulant:hover p {
@@ -96,10 +98,13 @@ h1{
     background-color: white;
     border: 1px solid black;
     border-radius: 10px 100px / 120px;
-    position: relative;
-    left: 41.3%;
     width: 330px;
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2{
